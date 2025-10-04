@@ -5,6 +5,10 @@ This is the accompanying repository for my article "Playing Othello / Reversi on
 
 ![Image 1](./images/esp32_cyd_brick_clock_v02_600w.png)
 
+## Note on the origin of the code
+
+The main game code is fully taken from the 'Othello' example provided with the Minimax library, so all rights and comments go to the author of this library, **Trent M. Wyatt**. To make the game playable on a TFT display with touch support, I added some code (display driver, buttons and reaction on touch events). As I doesn't want to rewrite the original code in complete I already left most of the outputs on the Serial Monitor - just the 'inputs' by the Serial Monitor interface are no longer active.
+
 ## Required Libraries
 ````plaintext
 LovyanGFX by lovyan03 version 1.2.7 (https://github.com/lovyan03/LovyanGFX)
