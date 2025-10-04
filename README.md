@@ -3,7 +3,7 @@ The ESP32 Cheap Yellow Device is a fantastic device as it comes with a 2.8-inche
 
 This is the accompanying repository for my article "Playing Othello / Reversi on an ESP32 Cheap Yellow Display with Minimax intelligence for the AI opponent" available here:
 
-![Image 1](./images/esp32_cyd_brick_clock_v02_600w.png)
+![Image 1](./images/esp32_cyd_othello_02_500h.png)
 
 ## Note on the origin of the code
 
@@ -36,6 +36,8 @@ Please select the matching driver by uncommenting a line in *Display_Logic.h*:
 ## Set up the difficulty (machine player strength)
 
 Define the difficulty (or, better, the strength of the machine) in the main sketch: "#define MINIMAX_DEPTH 4". A value of 2 is the fastest and lowest strength, a value of 10 is getting very slow (the machine will calculate some minutes before executing the next move). I set the difficulty to "4", but believe me, it is hard to win against the machine with this setting :-).
+
+![Image 2](./images/esp32_cyd_othello_01_500h.png)
 
 ## Development Environment
 ````plaintext
